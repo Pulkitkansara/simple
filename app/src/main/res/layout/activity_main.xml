@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="user database"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/butadd"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:onClick="add"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:onClick="list"
+        android:text="list data" />
+
+    <Button
+        android:id="@+id/butsrc"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:onClick="del"
+        android:text="delete" />
+
+    <Button
+
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:onClick="edit"
+        android:text="edit" />
+
+
+</LinearLayout>
