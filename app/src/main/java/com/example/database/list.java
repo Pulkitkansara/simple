@@ -1,3 +1,5 @@
+
+//this is fro  displaying  reecords
 package com.example.database;
 
 import androidx.appcompat.app.AppCompatActivity;
