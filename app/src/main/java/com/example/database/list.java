@@ -1,5 +1,6 @@
-
-//this is fro  displaying  reecords
+//
+//this is for
+//  displaying  reecords
 package com.example.database;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,7 +18,7 @@ import java.util.ArrayList;
 public class list extends AppCompatActivity {
 
     ListView l;
-    SQLiteDatabase myDb;
+    SQLiteDatabase myDb;  //fetching records from databasehelper class
     String a="";
     ArrayList list = new ArrayList();
 
