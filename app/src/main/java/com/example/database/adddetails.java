@@ -1,3 +1,5 @@
+
+//this program is  for inserting data into databaseX
 package com.example.database;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
 public class adddetails extends AppCompatActivity {
     DatabaseHelper myDb;
     EditText e,e1,e2,e3;
